@@ -16,16 +16,19 @@
 
   <ItemGroup>
     <PackageReference Include="azuredevops-testresultparser" Version="1.0.2" />
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.4.0" />
-    <PackageReference Include="Microsoft.CodeCoverage" Version="16.4.0" />
-    <PackageReference Include="Microsoft.TestPlatform.TestHost" Version="16.4.0" GeneratePathProperty="true" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.10.0" />
+    <PackageReference Include="Microsoft.CodeCoverage" Version="17.10.0" />
+    <PackageReference Include="Microsoft.TestPlatform.TestHost" Version="17.10.0" GeneratePathProperty="true" />
     <PackageReference Include="Moq" Version="4.20.70" />
-    <PackageReference Include="System.Reflection.TypeExtensions" Version="4.4.0" />
+    <PackageReference Include="System.Reflection.TypeExtensions" Version="4.7.0" />
     <PackageReference Include="System.Threading.ThreadPool" Version="4.3.0" />
     <PackageReference Include="vss-api-netcore" Version="$(VssApiVersion)" />
-    <PackageReference Include="xunit" Version="2.2.0" />
-    <PackageReference Include="xunit.runner.visualstudio" Version="2.2.0" />
-    <PackageReference Include="System.Security.Cryptography.Pkcs" Version="7.0.2" />
+    <PackageReference Include="xunit" Version="2.9.0" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.8.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="System.Security.Cryptography.Pkcs" Version="8.0.0" />
     <PackageReference Include="Microsoft.Azure.Storage.DataMovement" Version="2.0.5" />
     <PackageReference Include="System.Text.RegularExpressions" Version="4.3.1" />
     <PackageReference Include="System.Private.Uri" Version="4.3.2" />
